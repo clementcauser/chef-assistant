@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "chef-assistant": "apps/chef-assistant",
+    "chef-assistant-e2e": "apps/chef-assistant-e2e"
+  }
+}
