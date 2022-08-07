@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@chef-assistant/core-database": ["libs/core/database/src/index.ts"],
       "@chef-assistant/uikit": ["libs/uikit/src/index.ts"]
     }
   },
