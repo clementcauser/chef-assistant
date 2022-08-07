@@ -16,6 +16,15 @@
     "baseUrl": ".",
     "paths": {
       "@chef-assistant/core-database": ["libs/core/database/src/index.ts"],
+      "@chef-assistant/data-access-users": [
+        "libs/data-access/users/src/index.ts"
+      ],
+      "@chef-assistant/features-auth-api": [
+        "libs/features/auth/api/src/index.ts"
+      ],
+      "@chef-assistant/features-users-api": [
+        "libs/features/users/api/src/index.ts"
+      ],
       "@chef-assistant/uikit": ["libs/uikit/src/index.ts"]
     }
   },

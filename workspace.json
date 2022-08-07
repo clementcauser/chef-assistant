@@ -4,6 +4,9 @@
   "projects": {
     "api": "apps/api",
     "core-database": "libs/core/database",
+    "data-access-users": "libs/data-access/users",
+    "features-auth-api": "libs/features/auth/api",
+    "features-users-api": "libs/features/users/api",
     "uikit": "libs/uikit",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e"
