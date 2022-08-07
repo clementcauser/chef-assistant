@@ -1,0 +1,75 @@
+.button-common {
+    @apply inline-flex items-center justify-center text-base rounded-lg border-2 hover:cursor-pointer shadow transition duration-200;
+}
+
+.button-size-small {
+    @apply font-normal px-2 py-1;
+}
+
+.button-size-medium {
+    @apply font-medium px-3 py-2;
+}
+
+.button-size-large {
+    @apply font-bold px-5 py-3;
+}
+
+.button-ghost-primary {
+    @apply text-primary-base hover:bg-indigo-50 bg-white border-transparent active:bg-indigo-100;
+}
+
+.button-ghost-info {
+    @apply text-info-base hover:bg-blue-50 bg-white border-transparent active:bg-blue-100;
+}
+
+.button-ghost-success {
+    @apply text-success-base hover:bg-green-50 bg-white border-transparent active:bg-green-100;
+}
+
+.button-ghost-warning {
+    @apply text-warning-base hover:bg-orange-50 bg-white border-transparent active:bg-orange-100;
+}
+
+.button-ghost-danger {
+    @apply text-danger-base hover:bg-red-50 bg-white border-transparent active:bg-red-100;
+}
+
+.button-contained-primary {
+    @apply text-white hover:bg-primary-400 bg-primary-base border-transparent active:bg-primary-500;
+}
+
+.button-contained-info {
+    @apply text-white hover:bg-info-400 bg-info-base border-transparent active:bg-info-500;
+}
+
+.button-contained-success {
+    @apply text-white hover:bg-success-400 bg-success-base border-transparent active:bg-success-500;
+}
+
+.button-contained-warning {
+    @apply text-white hover:bg-warning-400 bg-warning-base border-transparent active:bg-warning-500;
+}
+
+.button-contained-danger {
+    @apply text-white hover:bg-danger-400 bg-danger-base border-transparent active:bg-danger-500;
+}
+
+.button-outlined-primary {
+    @apply text-primary-base hover:bg-indigo-50 bg-white border-primary-base active:bg-indigo-100;
+}
+
+.button-outlined-info {
+    @apply text-info-base hover:bg-blue-50 bg-white border-info-base active:bg-blue-100;
+}
+
+.button-outlined-success {
+    @apply text-success-base hover:bg-green-50 bg-white border-success-base active:bg-green-100;
+}
+
+.button-outlined-warning {
+    @apply text-warning-base hover:bg-orange-50 bg-white border-warning-base active:bg-orange-100;
+}
+
+.button-outlined-danger {
+    @apply text-danger-base hover:bg-red-50 bg-white border-danger-base active:bg-red-100;
+}
