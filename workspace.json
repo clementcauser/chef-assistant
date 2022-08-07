@@ -2,7 +2,8 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "chef-assistant": "apps/chef-assistant",
-    "chef-assistant-e2e": "apps/chef-assistant-e2e"
+    "uikit": "libs/uikit",
+    "web": "apps/web",
+    "web-e2e": "apps/web-e2e"
   }
 }
