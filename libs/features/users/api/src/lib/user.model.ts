@@ -5,6 +5,8 @@ export type UserDocument = UserModel & Document;
 
 @Schema({ collection: "users" })
 export class UserModel {
+  _id: string;
+
   @Prop({ required: true, unique: true })
   email: string;
 
@@ -16,6 +18,12 @@ export class UserModel {
 
   @Prop({ required: true })
   lastName: string;
+
+  @Prop()
+  createdAt: number;
+
+  @Prop()
+  updatedAt: number;
 }
 
 export const UserSchema = SchemaFactory.createForClass(UserModel);
