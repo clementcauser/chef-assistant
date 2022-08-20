@@ -42,8 +42,9 @@
   "devDependencies": {
     "@babel/core": "7.12.13",
     "@babel/preset-typescript": "7.12.13",
+    "@golevelup/ts-jest": "^0.3.3",
     "@nestjs/schematics": "^9.0.0",
-    "@nestjs/testing": "^9.0.0",
+    "@nestjs/testing": "^9.0.8",
     "@nrwl/cli": "14.5.4",
     "@nrwl/cypress": "14.5.4",
     "@nrwl/eslint-plugin-nx": "14.5.4",
@@ -83,6 +84,7 @@
     "eslint-plugin-react": "7.30.1",
     "eslint-plugin-react-hooks": "4.6.0",
     "jest": "27.5.1",
+    "mongodb-memory-server": "^8.8.0",
     "nx": "14.5.4",
     "postcss": "^8.4.14",
     "prettier": "^2.6.2",

@@ -11,7 +11,11 @@ export class UsersService {
   ) {}
 
   async create(createUserDto: CreateUserInput): Promise<UserModel> {
-    const createdUser = new this.userModel(createUserDto);
+    const createdUser = new this.userModel({
+      ...createUserDto,
+      createdAt: new Date().getTime(),
+      updatedAt: new Date().getTime(),
+    });
 
     return createdUser.save();
   }
