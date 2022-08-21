@@ -8,6 +8,7 @@
     "features-auth-api": "libs/features/auth/api",
     "features-auth-web": "libs/features/auth/web",
     "features-users-api": "libs/features/users/api",
+    "i18n": "libs/i18n",
     "uikit": "libs/uikit",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e"

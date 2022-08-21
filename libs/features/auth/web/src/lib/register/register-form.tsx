@@ -1,7 +1,7 @@
 import { Button, TextInput } from "@chef-assistant/uikit";
-import { Controller, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-import styles from "./auth.module.css";
+import { Controller, useForm } from "react-hook-form";
+import { useTranslation } from "react-i18next";
 import { registerFormValidationSchema } from "./register.form.constant";
 
 type FormValues = {
@@ -17,8 +17,9 @@ interface RegisterFormProps {
 }
 
 export const RegisterForm = ({ onSubmit }: RegisterFormProps) => {
+  const [t] = useTranslation();
   const { handleSubmit, control } = useForm<FormValues>({
-    resolver: yupResolver(registerFormValidationSchema),
+    resolver: yupResolver(registerFormValidationSchema(t)),
   });
 
   return (
@@ -91,9 +92,10 @@ export const RegisterForm = ({ onSubmit }: RegisterFormProps) => {
           />
         )}
       />
-      <div className="flex justify-center">
-        <Button type="submit">Créer un compte</Button>
-      </div>
+
+      <Button type="submit" variant="contained">
+        Créer un compte
+      </Button>
     </form>
   );
 };

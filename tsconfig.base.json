@@ -28,6 +28,7 @@
       "@chef-assistant/features-users-api": [
         "libs/features/users/api/src/index.ts"
       ],
+      "@chef-assistant/i18n": ["libs/i18n/src/index.ts"],
       "@chef-assistant/uikit": ["libs/uikit/src/index.ts"]
     }
   },
