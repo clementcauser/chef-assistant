@@ -22,6 +22,9 @@
       "@chef-assistant/features-auth-api": [
         "libs/features/auth/api/src/index.ts"
       ],
+      "@chef-assistant/features-auth-web": [
+        "libs/features/auth/web/src/index.ts"
+      ],
       "@chef-assistant/features-users-api": [
         "libs/features/users/api/src/index.ts"
       ],
