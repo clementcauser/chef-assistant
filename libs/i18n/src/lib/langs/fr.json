@@ -1,0 +1,26 @@
+{
+    "form": {
+        "errors": {
+            "array": {
+                "max": "Doit contenir {{ count }} élément maximum",
+                "max_plural": "Doit contenir {{ count }} éléments maximum",
+                "min":"Doit contenir {{ count }} élément minimum",
+                "min_plural":"Doit contenir {{ count }} éléments minimum"
+            },
+            "string": {
+                "min": "Doit contenir {{ count }} caractères minimum",
+                "max": "Doit contenir {{ count }} caractères maximum",
+                "email": "Adresse email invalide",
+                "url": "Doit être une URL valide",
+                "exactLength": "Doit comporter exactement {{ length }} caractères",
+                "required": "Ce champ est requis"
+            }
+        }
+    },
+    "register": {
+        "form": {
+            "password": "Doit comporter 6 caractères dont au moins 1 majuscule, 1 minuscule et 1 chiffre",
+            "confirmPassword": "Doit être identique au champ \"mot de passe\""
+        }
+    }
+}

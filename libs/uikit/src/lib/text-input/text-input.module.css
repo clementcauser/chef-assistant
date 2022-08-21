@@ -1,0 +1,7 @@
+.base-text-input { 
+    @apply block w-full px-3 py-1.5 text-base font-normal text-gray-600 bg-gray-100 bg-clip-padding border-2 border-solid border-gray-100 rounded-lg transition ease-in-out m-0 focus:text-gray-600 focus:bg-gray-50 focus:border-primary-500 focus:border-2 focus:outline-none;
+}
+
+.error-text-input {
+    @apply border-danger-500;
+}

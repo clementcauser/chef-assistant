@@ -1,0 +1,26 @@
+{
+    "form": {
+        "errors": {
+            "array": {
+                "max": "Must contain {{ count }} item maximum",
+                "max_plural": "Must contain {{ count }} items maximum",
+                "min":"Must contain at least {{ count }} item",
+                "min_plural": "Must contain at least {{ count }} items"
+            },
+            "string": {
+                "min": "Must contain {{ count }} characters minimum",
+                "max": "Must contains {{ count }} caractères maximum",
+                "email": "Invalid email address",
+                "url": "Must be a valid URL",
+                "exactLength": "Must include exactly {{ count }}",
+                "required": "This field is required"
+            }
+        }
+    },
+    "register": {
+        "form": {
+            "password": "Must contain at least 6 characters including 1 uppercase, 1 lowercase et 1 number",
+            "confirmPassword": "Must have the same value as the \"password\" field"
+        }
+    }
+}

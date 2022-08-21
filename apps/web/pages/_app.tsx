@@ -1,3 +1,4 @@
+import "@chef-assistant/i18n";
 import { AppProps } from "next/app";
 import Head from "next/head";
 import "./styles.css";
